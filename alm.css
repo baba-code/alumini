@@ -1,0 +1,54 @@
+body{
+	margin-left:10%;
+	margin-right:10%;
+	padding-left:10%;
+	padding-right:10%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+labels{
+	align:left;
+	float:left;
+	width:130px;
+}
+
+input{
+	align:justify;
+	text-align:left;
+	float:left;
+	width:300px;
+}
+div {
+    clear: left;
+	
+}
+td{
+	
+	width:300px;
+}
+input[type=reset]{
+	width:70;
+	text-align:center;
+}
+input[type=submit]{
+	float:right;
+	width:100;
+	text-align:center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  
+  
+}
