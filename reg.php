@@ -17,10 +17,10 @@ $inst_comp=$_POST["association"];
 $nature=$_POST["nature"];
 $lcity=$_POST["lcity"];
 	$link=mysqli_connect($host,$dbuser,"",$dbname);
-	$conn=mysql_connect($host,$dbname,"");
-	mysql_select_db($dbname,$conn);
+	//$conn=mysql_connect($host,$dbname,"");
+	//mysql_select_db($dbname,$conn);
 	
-	$sql="INSERT INTO `user` values('$name','batch','email','$contact','$add1','$add2','$city','$state','$pin','$country','$inst_comp','$nature','$lcity');";
+	$sql="INSERT INTO `user` values('$name','$batch','$email','$contact','$add1','$add2','$city','$state','$pin','$country','$inst_comp','$nature','$lcity');";
 //foreach ($fdata as &$value) {$value;}
 //$sql1="insert into user values ('array_push($fdata)')";
 	
